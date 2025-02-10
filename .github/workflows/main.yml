@@ -14,6 +14,6 @@ jobs:
        run: |  
          ls -lrt 
          pwd
-         cd deployement
+         cd deployment
          ls -lrt
          cat file2.txt
