@@ -12,7 +12,8 @@ jobs:
     steps:
     -  name: actions/checkout@v3
        run: |  
-         ls -lrt
+         ls -lrt 
+         pwd
          cd deployement
          ls -lrt
          cat file2.txt
